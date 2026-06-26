@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* THEME SYSTEM VARIABLES */
+@import "tailwindcss";
+
+:root {
+  /* Default: Classic Grain */
+  --primary-main: #fa9d6a;
+  --secondary-main: #8B5E3C;
+  --bg-system: #F9FAFB;      /* Main Page Background */
+  --bg-card: #ffffff;        /* Card Surface */
+  --bg-accent: #F5F5DC;      /* Subtle Highlight */
+  --border-color: #E5E7EB;   /* Default Borders */
+  --text-main: #111827;      /* Primary Text */
+}
+
+@media print {
+  /* 1. Hide everything in the app */
+  body * {
+    visibility: hidden;
+  }
+
+  /* 2. Show only the report and its contents */
+  .pdf-render-engine, .pdf-render-engine * {
+    visibility: visible;
+  }
+
+  /* 3. Position the report for the paper */
+  .pdf-render-engine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: block !important;
+  }
+
+  /* 4. Force colors (Watermarks & Table Headers) */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+
+  .pdf-render-engine {
+    display: block !important; /* Force it to show only when printing */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

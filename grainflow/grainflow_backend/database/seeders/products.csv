@@ -1,0 +1,22 @@
+product_id,name,category,stockQuantity,unit,reorderLevel,sack_price,tubo,pricePerUnit,is_archived
+1,jack,Local,50,kg,10,1800,5,75,0
+2,tristar jasmin,Local,50,kg,10,1400,5,67,0
+3,blueberry,Local,50,kg,10,1900,5,50,0
+4,angelica sinandomeng,Local,50,kg,10,2100,5,60,0
+5,royale,Local,50,kg,10,1450,5,58,0
+6,cherokee,Local,50,kg,10,1300,5,55,0
+7,bathala,Local,50,kg,10,1800,5,55,0
+8,tamaraw,Local,50,kg,10,1700,5,58,0
+9,cattaleya,Local,50,kg,10,2000,5,52,0
+10,super rice,Local,50,kg,10,1500,5,69,0
+11,galaxy,Local,50,kg,10,2400,5,73,0
+12,yehbebe,Local,50,kg,10,1600,5,55,0
+13,mindoro diamond,Local,50,kg,10,1900,5,57,0
+14,malagkit,Glutious,50,kg,10,3000,5,69,0
+15,jasmin,Local,50,kg,10,1700,5,64,0
+16,angelica,Local,50,kg,10,1900,5,50,0
+17,m diamond,Local,50,kg,10,1500,5,40,0
+18,cherry blossom,Local,50,kg,10,1650,5,35,0
+19,buco pandan,Local,50,kg,10,1300,5,46,0
+20,mangyan,Local,50,kg,10,1600,5,50,0
+21,red jasmin,Local,50,kg,10,1900,5,55,0
